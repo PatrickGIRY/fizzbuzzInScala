@@ -15,4 +15,7 @@ class FizzBuzzSpec extends FlatSpec with Matchers {
   "number 6" should "print \"FIZZ\"" in {
     FizzBuzz.printIt(6) shouldEqual "FIZZ"
   }
+  "number 5" should "print \"BUZZ\"" in {
+    FizzBuzz.printIt(5) shouldEqual "BUZZ"
+  }
 }
