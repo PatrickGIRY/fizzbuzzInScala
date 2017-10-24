@@ -1,6 +1,6 @@
 package fizzbuzz
 
 object FizzBuzz {
-  def printIt(number: Int) : String = "1"
+  def printIt(number: Int) : String = number.toString
 
 }
