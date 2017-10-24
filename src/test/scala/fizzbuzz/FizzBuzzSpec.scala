@@ -3,7 +3,7 @@ package fizzbuzz
 import org.scalatest._
 
 class FizzBuzzSpec extends FlatSpec with Matchers {
-  "The Hello object" should "say hello" in {
-    Hello.greeting shouldEqual "hello"
+  "number 1" should "print \"1\"" in {
+    FizzBuzz.printIt(1) shouldEqual "1"
   }
 }
